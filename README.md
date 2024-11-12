@@ -1,4 +1,4 @@
-![Description](output.png)
+![Description](output/output1.png)
 
 This Streamlit app allows users to interact with web pages and PDF documents via a conversational AI. It leverages web scraping to extract text from webpages and PDF files, stores the extracted content in a vector store, and enables users to ask questions about the content. The responses are powered by language models like OpenAI GPT and Google's Gemini.
 
