@@ -30,7 +30,7 @@ This project enables users to interact with web pages and PDF documents via a co
 ├── README.md               # Project documentation
 ├── requirements.txt        # Required Python packages
 
-git clone https://github.com/Vipul251/AI-Content-Engine-Chatbot.git
+git clone https://github.com/Vipul251/AI-Content-Engine-Pdf.git
 cd AI-Content-Engine-Chatbot
 pip install -r requirements.txt
 
