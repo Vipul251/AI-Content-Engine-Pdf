@@ -7,7 +7,7 @@ embeddings_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Load Faiss index using LangChain's FAISS wrapper
 def search_index(query):
-    index_path = Path(r"C:\Users\adity\OneDrive\Desktop\Alemeno Internship Assignment\company_index.faiss")
+    index_path = Path(r"C:\Users\Vipul\OneDrive\Desktop\Alemeno Internship Assignment\company_index.faiss")
     print(f"Attempting to load FAISS index from: {index_path}")
     
     try:
@@ -23,5 +23,6 @@ def search_index(query):
     except Exception as e:
         print(f"Error during search: {e}")
         return []
+
 
     return [doc.metadata['source'] for doc in relevant_documents]
